@@ -1,0 +1,348 @@
+
+a{
+  color: #000!important;
+  text-decoration: none!important;
+
+}
+.main_img
+{
+  background-image: url(./images/asset\ 5.jpeg);
+  background-size: cover;
+  background-position: center center ;
+background-repeat: no-repeat;
+height: 652.45px;
+padding-top: 120px;
+padding-bottom: 120px;
+text-align: center;
+position: relative;
+}
+.m-after button
+{
+  position: relative;
+  z-index: 11;
+  font-size: 190%;
+
+}
+.main_img .m-after::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #0c5298;
+  width: 100%;
+  /* z-index:-1; */
+  opacity: .80;
+}
+.main_img .m-heading
+{
+  
+  color: #fff;
+  z-index: 10!important;
+  
+}
+.main_img .m-content
+{
+  color: #fff;
+  z-index: 11;
+  position: relative;
+  width: 80%;
+  /* text-align: center; */
+}
+.btn-color{
+  color: #fff!important;
+  background-color: #f50!important;
+}
+.secure_payments
+{
+  position: relative;
+}
+.secure_payments::after
+{
+  position: absolute;
+  content: '';
+  height: 100px;
+  width: 1px;
+  margin-left: 10px;
+  top: 0;
+  left: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.satisfaction
+{
+  position: relative;
+}
+.satisfaction::after
+{
+  position: absolute;
+  content: '';
+  height: 100px;
+  width: 1px;
+  margin-left: 10px;
+  top: 0;
+  left: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.quality_productions
+{
+  position: relative;
+}
+.quality_productions::after
+{
+  position: absolute;
+  content: '';
+  height: 100px;
+  width: 1px;
+  margin-left: 10px;
+  top: 0;
+  left: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.magento_theme
+{
+  background-color: #f2f6f9;
+}
+.magento_heading
+{
+  position:relative;
+}
+.magento_heading::before
+{
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 44%;
+  height: 4px;
+  width: 130px;
+  margin-top: 10px;
+  
+  background:linear-gradient(to right,#10599d,#3398dc);
+}
+.magento-box-1 ,.magento-box-2,.magento-box-3,.magento-box-4,.magento-box-5,.magento-box-6
+{
+  background-color: #fff;
+  box-shadow: 0 13px 20px 0 rgb(0 0 0 / 13%);
+
+}
+.magento_img1
+{
+  height: 100%;
+  width: 100%;
+}
+.magento_img2
+{
+  height: 100%;
+  width: 100%;
+}
+.magento_img3
+{
+  height: 100%;
+  width: 100%;
+}
+.magento_img4
+{
+  height: 100%;
+  width: 100%;
+}
+.magento_img5
+{
+  height: 100%;
+  width: 100%;
+}
+.magento_img6
+{
+  height: 100%;
+  width: 100%;
+}
+.magento_content_1{
+  padding: 20px;
+}
+.magento_content_1 a
+{
+  color:#0b509b!important;
+  
+  font-size: 17px;
+  letter-spacing: .4px;
+  text-transform: capitalize;
+}
+.magento_content_1 .theme_name
+{
+  font-size:13px ;
+}
+.label
+{
+  background-color: #db0905;
+  color: #fff;
+  text-align: end;
+
+}
+.bg_color_label
+{
+  background-color: #f50;
+  color: #fff;
+  text-align: end;
+}
+
+.browse_button:hover 
+{
+  background-color: #000;
+  border-color:#000 ;
+  color: #fff;
+  transition: 0.2s;
+}
+
+
+
+
+
+
+.prestashop_theme
+{
+  background-color: #f2f6f9;
+}
+
+.prestashop_heading
+{
+  position:relative;
+}
+.prestashop_heading::before
+{
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 44%;
+  height: 4px;
+  width: 130px;
+  margin-top: 10px;
+  
+  background:linear-gradient(to right,#10599d,#3398dc);
+}
+.prestashop-box-1 ,.prestashop-box-2,.prestashop-box-3,.prestashop-box-4,.prestashop-box-5,.prestashop-box-6
+{
+  background-color: #fff;
+  box-shadow: 0 13px 20px 0 rgb(0 0 0 / 13%);
+
+}
+.prestashop_img1
+{
+  height: 100%;
+  width: 100%;
+}
+.prestashop_img2
+{
+  height: 100%;
+  width: 100%;
+}
+.prestashop_img3
+{
+  height: 100%;
+  width: 100%;
+}
+.prestashop_img4
+{
+  height: 100%;
+  width: 100%;
+}
+.prestashop_img5
+{
+  height: 100%;
+  width: 100%;
+}
+.prestashop_img6
+{
+  height: 100%;
+  width: 100%;
+}
+.prestashop_content_1{
+  padding: 20px;
+}
+.prestashop_content_1 a
+{
+  color:#0b509b!important;
+  
+  font-size: 17px;
+  letter-spacing: .4px;
+  text-transform: capitalize;
+}
+.prestashop_content_1 .theme_name
+{
+  font-size:13px ;
+}
+
+
+.customer_loyalty{
+background-color: #f2f6f9;
+}
+.customer_loyalty_heading
+{
+  background-color: #fff;
+  text-align: center;
+  padding: 30px;
+  
+}
+.customer_loyalty_content
+{
+  width: 77%;
+  word-spacing: .5px;
+  letter-spacing: .5px;
+}
+.customer_loyalty_content button
+{
+  background-color: #000;
+  color: #fff;
+}
+
+.client_portfolio
+{
+  background-color: #f2f6f9;
+}
+.client_heading
+{
+  position: relative;
+}
+.client_heading::before
+{
+  content: '';
+  position: absolute;
+  top: 110%;
+  left: 44%;
+  height: 3px;
+  width: 130px;
+  background: linear-gradient(to right,#10599d ,#3398dc);
+  margin: 8px auto 0;
+}
+.client_button button{
+  background-color: #f2f6f9!important;
+  transition: 0.3s;
+
+}
+.client_button button:hover
+{
+
+  background-color: #000!important;
+  color: #fff;
+}
+.gaurantee
+{
+  background-color: #f2f6f9;
+  text-align: center;
+}
+.gaurantee_heading
+{
+  width: 80%;
+  /* background-color: #0b509b; */
+  text-align: center;
+}
+.gaurantee_p_content
+{
+  font-size: 20px;
+  word-spacing: .5px;
+  width: 80%;
+}
+.slider_img img
+{
+  border-radius: 50%;
+}
